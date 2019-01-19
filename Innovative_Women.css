@@ -1,0 +1,89 @@
+/* Name:Mia Casale 
+*  Date: 1/18/19
+*  Innovative Women  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/*-- the background color, fonts, width of page , and border of the body of the webpage --*/
+body { 
+    width: 964px;
+    background-color: white;
+    margin: 15px auto;
+    border: 1px solid black;
+    font-family: inherit,sans-serif, monospace
+}
+
+h1 { 
+    text-align: center;
+    padding: 10px;
+}
+
+p { 
+    text-align: center;
+}
+/*-- the border, text align, new background color and the color of the text of the webpage--*/ 
+header { 
+    border-bottom: 2px solid black;
+    text-align: center;  
+    background-color: palevioletred;
+    color: whitesmoke
+        
+}
+
+h3 { 
+    text-align: center;
+}
+/*-- the first column of my webpage's width, height, background color, and the border of my webpage --*/ 
+#sidebarA {
+    width: 180px;
+    height: 500px;
+    float: left;
+    border-right: 2px solid black;
+    font-size: 13px; 
+    background-color: whitesmoke;
+    text-align: center;
+    
+}
+/*-- the second column of my webpage, the biography section the font size, background color, height and width --*/ 
+main {
+    width: 588px;
+    height:500px;
+    float: left;
+    background-color: whitesmoke;
+   font-size: 14px;
+    text-align: center; 
+    
+}
+
+/*-- the final column of my webpage the third one's width, height, border,background color and font size--*/
+#sidebarB {
+    width: 190px;
+    height: 500px;
+    float:right;
+    border-left: 2px solid black;
+    background-color: whitesmoke;
+    font-size: 16px; 
+}
+
+footer { 
+    clear: both;
+    border-top: 2px solid black;
+    background-color: palevioletred;
+    color: whitesmoke;
+    
+   
+    /*-- the id's to my photo's I used for the webpage with their heights, width's, borders, margins, and paddings --*/ 
+   
+}
+#Ashleygrahamheadshot{ float: center; margin: 5px; border: 5px solid black;  height: 20
+}
+#ashleyinbio{ float: left; margin: 8px; border: 6px solid black; height: 150px; width: 200px; 
+}
+#ashleyphotoshoot{ float: right; margin 10px; border: 6px solid black; height:150px ; width: 240px;  
+}
+ul{list-style-type:none;
+padding-left: 10px; 
+padding-bottom:10px;  }
+#educational { float: right;  }
